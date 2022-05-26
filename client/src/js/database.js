@@ -24,11 +24,10 @@ console.log('🚀 - data saved to the database', result);
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async (content) => { console.error('getDb not implemented');
 const jateDb = await openDB('jate', 1,)
-const tx = jateDb.transaction('jate', 'readonly');
+const tx = jateDb.transaction('jate', 'readwrite');
 const store = tx.objectStore('jate');
-const request = store.get(content);
+const request = store.getAll();
 const result = await request;
 console.log('data saved to the jateDb', result);
-return result
 };
 initdb();
