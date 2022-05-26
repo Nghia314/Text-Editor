@@ -22,7 +22,7 @@
 <img width="1440" alt="Screen Shot 2022-05-26 at 9 15 17 AM" src="https://user-images.githubusercontent.com/100381618/170530048-df87d6de-0edd-4f29-b2f5-e47c434c4bc6.png">
 
 ## Deployed and GitHub link
-- Heroku app:
+- Heroku app: https://on-off-texteditor.herokuapp.com/
 - Github: https://github.com/Nghia314/Text-Editor
 - Github deployed: https://nghia314.github.io/Text-Editor/
 
